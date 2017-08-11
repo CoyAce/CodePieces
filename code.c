@@ -5,7 +5,7 @@ class Solution {
 public:
     vector<int> GetLeastNumbers_Solution(vector<int> input, int k) {
         vector<int>ans;
-        if(k<0||k>input.size()||input.size()==0)
+        if(k<=0||k>input.size()||input.size()==0)
             return ans;
 	for(int i=0;i<input.size();i++)
 	  std::cout<<input[i]<<" ";
